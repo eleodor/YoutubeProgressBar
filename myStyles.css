@@ -1,0 +1,106 @@
+html[refresh],[refresh] {
+    --yt-spec-static-brand-red: #f00 !important;
+    --yt-spec-static-overlay-background-brand: rgba(225,0,0,0.9) !important;
+    --yt-spec-static-brand-black: #000 !important
+}
+
+html[dark], [dark] {
+	--yt-spec-red-indicator: #ff0000 !important
+}
+
+html, [light] {
+	--yt-spec-red-indicator: #ff0000 !important
+}
+
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
+    background-color: #f00 !important
+}
+
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegmentModern {
+    background: #f00 !important
+}
+
+.yt-spec-avatar-shape__live-dot {
+    background-color: #f00 !important
+}
+
+.ytChapteredProgressBarChapteredPlayerBarChapter {
+    background: #f00 !important
+}
+.ytChapteredProgressBarChapteredPlayerBarChapterRefresh {
+    background: #f00 !important
+}
+
+.ytChapteredProgressBarChapteredPlayerBarFill {
+    background: #f00 !important
+}
+
+.ytChapteredProgressBarChapteredPlayerBarFillRefresh {
+    background: #f00 !important
+}
+
+.ytProgressBarLineProgressBarPlayed {
+    background-color: #f00 !important
+}
+
+.ytProgressBarLineProgressBarPlayedRefresh {
+    background: #f00 !important
+}
+
+.ytProgressBarPlayheadProgressBarPlayheadDot {
+    background-color: #f00 !important
+}
+
+.ytBrNzBadgeShapeBadgeStyleTypeNzRatingRedSquare {
+    background: #f00 !important
+}
+
+yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress {
+    background: #f00 !important
+}
+
+ytd-progress-bar-line[enable-refresh-signature-moments-web] .progress-bar-played.ytd-progress-bar-line {
+    background: #f00 !important
+}
+
+html.ytd-rich-grid-media[refresh],.ytd-rich-grid-media[refresh] {
+    --yt-spec-static-brand-red: #f00 !important;
+    --yt-spec-static-overlay-background-brand: rgba(225,0,0,0.9) !important;
+    --yt-spec-static-brand-black: #000 !important
+}
+
+.badge-style-type-nz-rating-red-square.ytd-badge-supported-renderer {
+    background: #f00 !important
+}
+
+ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    background: #f00 !important
+}
+
+.ytp-cairo-refresh-signature-moments.ytp-play-progress {
+	background: #f00 !important
+}
+
+.yt-spec-avatar-shape--cairo-refresh.yt-spec-avatar-shape--live-ring::after {
+	background: #f00 !important
+}
+
+.yt-spec-avatar-shape--cairo-refresh .yt-spec-avatar-shape__live-badge {
+	background-color: #f00 !important
+}
+
+.ytp-cairo-refresh-signature-moments .ytp-play-progress {
+	background: #f00 !important
+}
+
+.yt-spec-icon-badge-shape--type-notification-refresh .yt-spec-icon-badge-shape__badge {
+	background-color: #ff0000 !important;
+}
+
+.yt-core-attributed-string--inline-block-mod > img[src="https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png"] {
+	content: url("data:image/png;base64,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") !important
+}
+
+.badge-shape-wiz--thumbnail-live {
+	background: #FF0000 !important
+}
