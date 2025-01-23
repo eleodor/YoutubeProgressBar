@@ -15,7 +15,7 @@ function debounce(func, wait) {
   };
 }
 
-const debouncedChangeIconsToRed = debounce(changeIconsToRed, 100); // Debounce with 100ms delay
+const debouncedChangeIconsToRed = debounce(changeIconsToRed, 50); // Debounce with 50ms delay
 
 const observer = new MutationObserver(function(mutations) {
   debouncedChangeIconsToRed();
