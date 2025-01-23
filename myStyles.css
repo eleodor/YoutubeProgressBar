@@ -1,6 +1,6 @@
 html[refresh],[refresh] {
     --yt-spec-static-brand-red: #f00 !important;
-    --yt-spec-static-overlay-background-brand: rgba(225,0,0,0.9) !important;
+    --yt-spec-static-overlay-background-brand: rgba(255,0,0,0.9) !important;
     --yt-spec-static-brand-black: #000 !important
 }
 
@@ -55,17 +55,17 @@ html, [light] {
     background: #f00 !important
 }
 
-yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress {
+.yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress {
     background: #f00 !important
 }
 
-ytd-progress-bar-line[enable-refresh-signature-moments-web] .progress-bar-played.ytd-progress-bar-line {
+.ytd-progress-bar-line[enable-refresh-signature-moments-web] .progress-bar-played.ytd-progress-bar-line {
     background: #f00 !important
 }
 
 html.ytd-rich-grid-media[refresh],.ytd-rich-grid-media[refresh] {
     --yt-spec-static-brand-red: #f00 !important;
-    --yt-spec-static-overlay-background-brand: rgba(225,0,0,0.9) !important;
+    --yt-spec-static-overlay-background-brand: rgba(255,0,0,0.9) !important;
     --yt-spec-static-brand-black: #000 !important
 }
 
@@ -73,7 +73,7 @@ html.ytd-rich-grid-media[refresh],.ytd-rich-grid-media[refresh] {
     background: #f00 !important
 }
 
-ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+.ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
     background: #f00 !important
 }
 
@@ -103,4 +103,24 @@ ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-
 
 .badge-shape-wiz--thumbnail-live {
 	background: #FF0000 !important
+}
+
+/*youtube and youtube studio logos*/
+svg > g > path[fill="#FF0033"] {
+    fill: #FF0000 !important
+}
+
+/*youtube shorts logo*/
+svg > path[fill="#f03"] {
+    fill: #FF0000 !important
+}
+
+/*youtube music logo*/
+svg > g > circle[fill="#FF0033"] {
+    fill: #FF0000 !important
+}
+
+/*youtube kids logo*/
+svg > g > g > path[fill="#FF0033"] {
+    fill: #FF0000 !important
 }
