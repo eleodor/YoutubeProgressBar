@@ -1,0 +1,94 @@
+html[refresh],[refresh] {
+    --yt-spec-static-brand-red: #f00 !important;
+    --yt-spec-static-overlay-background-brand: rgba(225,0,0,0.9) !important;
+    --yt-spec-static-brand-black: #000 !important
+}
+
+html[dark], [dark] {
+	--yt-spec-red-indicator: #ff0000 !important
+}
+
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
+    background-color: #f00 !important
+}
+
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegmentModern {
+    background: #f00 !important
+}
+
+.yt-spec-avatar-shape__live-dot {
+    background-color: #f00 !important
+}
+
+.ytChapteredProgressBarChapteredPlayerBarChapter {
+    background: #f00 !important
+}
+.ytChapteredProgressBarChapteredPlayerBarChapterRefresh {
+    background: #f00 !important
+}
+
+.ytChapteredProgressBarChapteredPlayerBarFill {
+    background: #f00 !important
+}
+
+.ytChapteredProgressBarChapteredPlayerBarFillRefresh {
+    background: #f00 !important
+}
+
+.ytProgressBarLineProgressBarPlayed {
+    background-color: #f00 !important
+}
+
+.ytProgressBarLineProgressBarPlayedRefresh {
+    background: #f00 !important
+}
+
+.ytProgressBarPlayheadProgressBarPlayheadDot {
+    background-color: #f00 !important
+}
+
+.ytBrNzBadgeShapeBadgeStyleTypeNzRatingRedSquare {
+    background: #f00 !important
+}
+
+yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-page-navigation-progress {
+    background: #f00 !important
+}
+
+ytd-progress-bar-line[enable-refresh-signature-moments-web] .progress-bar-played.ytd-progress-bar-line {
+    background: #f00 !important
+}
+
+html.ytd-rich-grid-media[refresh],.ytd-rich-grid-media[refresh] {
+    --yt-spec-static-brand-red: #f00 !important;
+    --yt-spec-static-overlay-background-brand: rgba(225,0,0,0.9) !important;
+    --yt-spec-static-brand-black: #000 !important
+}
+
+.badge-style-type-nz-rating-red-square.ytd-badge-supported-renderer {
+    background: #f00 !important
+}
+
+ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    background: #f00 !important
+}
+
+.ytp-cairo-refresh-signature-moments.ytp-play-progress {
+	background: #f00 !important
+}
+
+.yt-spec-avatar-shape--cairo-refresh.yt-spec-avatar-shape--live-ring::after {
+	background: #f00 !important
+}
+
+.yt-spec-avatar-shape--cairo-refresh .yt-spec-avatar-shape__live-badge {
+	background-color: #f00 !important
+}
+
+.ytp-cairo-refresh-signature-moments .ytp-play-progress {
+	background: #f00 !important
+}
+
+.yt-spec-icon-badge-shape--type-notification-refresh .yt-spec-icon-badge-shape__badge {
+	background-color: #ff0000 !important
+}
