@@ -9,7 +9,9 @@
     {
       "matches": ["*://*.youtube.com/*"],
       "css": ["myStyles.css"],
-      "js": ["Content.js"]
+      "js": ["Content.js"],
+      "__COMMENT__": "https://www.reddit.com/r/webdev/comments/bjhc2z/comment/lf4iq91/",
+      "all_frames": true
     }
   ],
   "browser_specific_settings": {
