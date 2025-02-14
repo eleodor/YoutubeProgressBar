@@ -47,7 +47,9 @@ html[cairo] {
 .ytProgressBarLineProgressBarPlayed {
     background-color: #f00 !important
 }
-
+.ytProgressBarLineProgressBarPlayedRefresh.ytProgressBarLineProgressBarPlayed {
+    background: #f00 !important
+}
 .ytProgressBarLineProgressBarPlayedRefresh {
     background: #f00 !important
 }
@@ -92,6 +94,10 @@ ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-
 
 .yt-spec-avatar-shape--cairo-refresh .yt-spec-avatar-shape__live-badge {
 	background-color: #f00 !important
+}
+
+.ytp-play-progress {
+	background: #f00 !important
 }
 
 .ytp-cairo-refresh-signature-moments .ytp-play-progress {
