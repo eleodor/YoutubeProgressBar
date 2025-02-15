@@ -25,6 +25,10 @@ html[cairo] {
     background: #f00 !important
 }
 
+.ytChapteredProgressBarChapteredPlayerBarChapterSeen {
+    background: #f00 !important
+}
+
 .yt-spec-avatar-shape__live-dot {
     background-color: #f00 !important
 }
@@ -45,7 +49,8 @@ html[cairo] {
 }
 
 .ytProgressBarLineProgressBarPlayed {
-    background-color: #f00 !important
+    background-color: #f00 !important;
+    background: #f00 !important
 }
 .ytProgressBarLineProgressBarPlayedRefresh.ytProgressBarLineProgressBarPlayed {
     background: #f00 !important
@@ -68,6 +73,10 @@ yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-p
 
 ytd-progress-bar-line[enable-refresh-signature-moments-web] .progress-bar-played.ytd-progress-bar-line {
     background: #f00 !important
+}
+
+.progress-bar-played.ytd-progress-bar-line {
+    background-color: #f00 !important
 }
 
 html.ytd-rich-grid-media[refresh],.ytd-rich-grid-media[refresh] {
