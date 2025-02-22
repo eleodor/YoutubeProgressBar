@@ -71,6 +71,10 @@ yt-page-navigation-progress[enable-refresh-signature-moments-web] #progress.yt-p
     background: #f00 !important
 }
 
+#progress.yt-page-navigation-progress {
+    background: #f00 !important
+}
+
 ytd-progress-bar-line[enable-refresh-signature-moments-web] .progress-bar-played.ytd-progress-bar-line {
     background: #f00 !important
 }
@@ -90,6 +94,10 @@ html.ytd-rich-grid-media[refresh],.ytd-rich-grid-media[refresh] {
 }
 
 ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    background: #f00 !important
+}
+
+#progress.ytd-thumbnail-overlay-resume-playback-renderer {
     background: #f00 !important
 }
 
@@ -141,6 +149,10 @@ ytmusic-player-bar[enable-cairo-refresh-signature-moments-web] #progress-bar.ytm
 }
 
 ytd-badge-supported-renderer[enable-signature-moments-web] .badge-style-type-premium.ytd-badge-supported-renderer {
+    background: #f00 !important
+}
+
+.badge-style-type-premium.ytd-badge-supported-renderer {
     background: #f00 !important
 }
 
