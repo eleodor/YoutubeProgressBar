@@ -5,11 +5,13 @@ html[refresh],[refresh] {
 }
 
 html[dark], [dark] {
-	--yt-spec-red-indicator: #ff0000 !important
+	--yt-spec-red-indicator: #ff0000 !important;
+	--yt-spec-static-brand-red: #f00 !important
 }
 
 html, [light] {
-	--yt-spec-red-indicator: #ff0000 !important
+	--yt-spec-red-indicator: #ff0000 !important;
+	--yt-spec-static-brand-red: #f00 !important
 }
 
 html[cairo] {
